@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ankita Satpute - Resume</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    background-color: #f0f4fc;
+    color: #333;
+  }
+  .container {
+    max-width: 850px;
+    background: white;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    background: #d7e4fd;
+    width: 300px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .left img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .left h1 {
+    font-size: 28px;
+    margin: 0 0 5px;
+    font-weight: 700;
+  }
+  .left p {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 25px;
+  }
+  .section {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .section h2::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+  }
+  /* Icons for sections */
+  .aboutme h2::before {background-image: url('https://img.icons8.com/material-outlined/24/000000/user--v1.png'); }
+  .contact h2::before {background-image: url('https://img.icons8.com/material-outlined/24/000000/user--v1.png'); }
+  .skills h2::before { background-image: url('https://img.icons8.com/material-outlined/24/000000/user--v1.png'); }
+  .language h2::before {background-image: url('https://img.icons8.com/material-outlined/24/000000/user--v1.png'); }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
+  ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .right {
+    flex: 1;
+    padding: 30px 40px;
+    box-sizing: border-box;
+  }
+  .right .section {
+    border-left: 3px solid #4a79f7;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .right .section h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .right .section .subheading {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 6px;
+  }
+  .right .section .date {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+  }
+  .right .section p, .right .section ul {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .right .section ul {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+
+  @media(max-width: 700px) {
+    .container {
+      flex-direction: column;
+    }
+    .left, .right {
+      width: 100%;
+      padding: 20px;
+    }
+    .right .section {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="left">
+    <img src="https://i.ibb.co/MVj0T3k/ankita-photo.jpg"="Ankita Satpute" />
+    <h1>ANKITA SATPUTE</h1>
+    <p>Student</p>
+
+    <div class="section aboutme">
+      <h2>About Me</h2>
+      <p>
+        I am a Diploma in Computer Engineering student. I have basic knowledge of programming languages like C, C++, Java, HTML, and CSS. I am interested in learning new technologies like web development and app development. I am hardworking, quick learner, and looking for an internship to improve my skills and get real work experience.
+      </p>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>📞 9175250510</p>
+      <p>✉️ <a href="mailto:ankusatpute143@gmail.com">ankusatpute143@gmail.com</a></p>
+      <p>📍 University road, Shivaji Nagar, Pune</p>
+      <p>🔗 <a href="https://www.linkedin.com/in/ankita-satpute-4b3382366" target="_blank">linkedin.com/in/ankita-satpute-4b3382366</a></p>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>C programming</li>
+        <li>Object-oriented programming</li>
+        <li>Python programming</li>
+        <li>HTML, CSS</li>
+        <li>PL/SQL Database</li>
+        <li>Data structure using C</li>
+      </ul>
+    </div>
+
+    <div class="section language">
+      <h2>Language</h2>
+      <ul>
+        <li>English</li>
+        <li>Marathi</li>
+        <li>Hindi</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="section education">
+      <h2>Education</h2>
+      <div>
+        <div class="date">(2021-2022)</div>
+        <div class="subheading">HANUMAN VIDYALAY GHARGAON</div>
+        <p>SSC Board</p>
+        <p>90.60%</p>
+      </div>
+      <div style="margin-top:15px;">
+        <div class="date">(2025-2026)</div>
+        <div class="subheading">GOVERNMENT POLYTECHNIC PUNE</div>
+        <p>Diploma in Computer Engineering</p>
+      </div>
+    </div>
+
+    <div class="section personal-info">
+      <h2>Personal Information</h2>
+      <p><strong>Date of Birth:</strong> 05/08/2006</p>
+      <p><strong>Marital Status:</strong> Unmarried</p>
+      <p><strong>Nationality:</strong> Indian</p>
+    </div>
+
+    <div class="section project">
+      <h2>About Project</h2>
+      <p><strong>Completed Project in Academics:</strong> Employee Management System {C, C++, Data Structure, Database}</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
